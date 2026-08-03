@@ -1,0 +1,20 @@
+ZÄHLBUCH — DER ACHTRING
+App-Paket. Alle sieben Dateien gehören zusammen und müssen im selben Ordner liegen.
+
+  index.html               die App
+  manifest.webmanifest     Name, Farben, Icons — macht sie installierbar
+  sw.js                    hält sie ohne Internet lauffähig
+  icon-192.png             App-Icon
+  icon-512.png             App-Icon, groß
+  icon-maskable-512.png    App-Icon für runde Masken
+  apple-touch-icon.png     App-Icon für iPhone/iPad
+
+INSTALLIEREN
+1. Alle Dateien in ein kostenloses, öffentliches GitHub-Repository laden.
+2. Settings -> Pages -> Branch "main", Ordner "/ (root)" -> Save.
+3. Nach ein bis zwei Minuten erscheint dort die Adresse.
+4. Adresse am Handy in Chrome öffnen -> Menü (drei Punkte) -> "App installieren".
+5. Am PC dieselbe Adresse öffnen -> Symbol im Adressfeld -> "Installieren".
+
+Ohne Installation läuft index.html auch per Doppelklick. Dann fehlen nur
+Icon und eigenes Fenster; gerechnet wird genauso.

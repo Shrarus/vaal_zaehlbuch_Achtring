@@ -1,0 +1,19 @@
+{
+  "name": "Zählbuch — Der Achtring",
+  "short_name": "Zählbuch",
+  "description": "Der zivile Kalender der acht Ringstädte. Rechnet jedes Datum aus dem Erstzähl des Jahres Null.",
+  "lang": "de",
+  "dir": "ltr",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#161826",
+  "theme_color": "#161826",
+  "categories": ["utilities", "lifestyle"],
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
